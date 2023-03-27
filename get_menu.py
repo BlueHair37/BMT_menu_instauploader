@@ -2,7 +2,8 @@ import requests, json, re
 from datetime import datetime
 
 def take_menu(prm):
-    url = "https://open.neis.go.kr/hub/mealServiceDietInfo?KEY=9a45c0ca0c724287b1dc3312e0a6b041"
+    key = "9a45c0ca0c724287b1dc3312e0a6b041"
+    url = f"https://open.neis.go.kr/hub/mealServiceDietInfo?KEY={key}"
     city_code = "C10"
     school_code = "1421117"
     today_date = str(datetime.today().year)+str(datetime.today().month).zfill(2)+str(datetime.today().day).zfill(2)

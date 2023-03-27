@@ -4,8 +4,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 
-id = "202231102@bmt.hs.kr"
-pswd = "kang0513@@#"
+id = "id"
+pswd = "pswd"
 
 #드라이버 설치 및 크롬 실행
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install())) #또는 chromedriver.exe
